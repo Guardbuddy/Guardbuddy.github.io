@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 :root {
   --accent: #2196f3;
   --accent-brighter: #3da8ff;
@@ -7,10 +6,10 @@
   --accent-secondary: #9b761e;
   --thread-bg: #303030;
   --thread-bg-read: #1c1c1c;
-  --thread-bg-sticky: #26A65B;
-  --thread-bg-sticky2: #26A65B;
+  --thread-bg-sticky: #572121;
+  --thread-bg-sticky2: #573521;
   --thread-separator: #202020;
-  --text-color: #ffffff;
+  --text-color: #dadada;
   --text-dim-color: #b3b3b3;
   --gold: rgba(252, 190, 32, 1);
   --darker: #1b1b1b;
@@ -164,10 +163,6 @@ a.dropdown-item:hover,
 .dropdown .dropdown-menu .has-link a:hover {
   background: var(--accent);
   color: var(--text-color);
-}
-
-.alert-component .dropdown-item .alert-header {
-  background-color: var(--thread-bg-sticky);
 }
 
 .alert-component .dropdown-item .alert-dropdown .alert-item.alert-seen>a,
